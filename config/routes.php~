@@ -1,0 +1,13 @@
+<?php
+return array (
+    'task/add' => 'task/add',
+    'task/status' => 'task/status',
+    'task/get' => 'task/get',
+    'task/([0-9]+)/page-([0-9]+)' => 'task/pagination/$1/$2',
+    'task/edit' => 'task/edit',
+    'task/login' => 'task/login',
+    '' => 'task/index',
+
+
+    
+);
